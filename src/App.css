@@ -1,0 +1,194 @@
+#root {
+  text-align: center;
+  align-content: center;
+  margin: 0 5%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 100px;
+  padding: 10px 0 70px 0;
+  border-top: 1px solid #707070;
+}
+
+.react-link:hover {
+  color: #64ff9aaa;
+}
+
+.logo {
+  height: 6em;
+  will-change: filter;
+  transition: filter 300ms;
+  padding-top: 30px;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 5px #4ce381);
+}
+
+.footer-logo {
+  padding: 20px 0 0 0;
+  height: 3.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.eslogan {
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffffffcd;
+  margin: 10px 0 0 0;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid #707070;
+  border-radius: 25px;
+  width: 250px;
+  height: auto;
+  padding: 0 25px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.card:hover {
+  filter: drop-shadow(0 0 1em rgba(255, 255, 255, 0.5));
+}
+
+.detalle-celular {
+  padding: 0 20px;
+}
+
+.card-detalle {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid #707070;
+  border-radius: 25px;
+  width: auto;
+  height: auto;
+  padding: 0 25px;
+  will-change: filter;
+  transition: filter 200ms;
+}
+
+.grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.celular-image {
+  width: auto;
+  height: 200px;
+}
+
+.redes-image {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.variantes-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.variantes-list li {
+  border: 1px solid #707070;
+  padding: 15px 15px 0 15px;
+  border-radius: 25px;
+  min-width: 200px;
+  color: #dedede;
+  flex: 1 1 200px;
+}
+
+.terminos-politica {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px 80px 20px;
+}
+
+.aviso {
+  background-color: rgba(#11a35a, 0.2);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: auto;
+  font-weight: bold;
+  z-index: 9999;
+}
+
+.aviso a:hover {
+  color: #64ff9aaa;
+}
+
+h2 {
+  margin: 3rem 0 1rem 0;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  #root {
+    margin: 0 20px;
+  }
+
+  .logo {
+    height: 4em;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .aviso {
+    font-size: 12px;
+  }
+
+  .grid {
+    flex-direction: column;
+  }
+
+  footer {
+  padding: 10px 0 110px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  height: 2.5em;
+}
+}

@@ -1,0 +1,351 @@
+[
+    {
+        "id": 1,
+        "marca": "Apple",
+        "modelo": "iPhone 13",
+        "imagen": "/iphone13.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 590
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "marca": "Apple",
+        "modelo": "iPhone 14",
+        "imagen": "/iphone14.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 670
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "marca": "Apple",
+        "modelo": "iPhone 15",
+        "imagen": "/iphone15.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 780
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 940
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "marca": "Apple",
+        "modelo": "iPhone 16e",
+        "imagen": "/iphone16e.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 650
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 790
+            },
+            {
+                "almacenamiento": "512 GB",
+                "precio": 990
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "marca": "Apple",
+        "modelo": "iPhone 16",
+        "imagen": "/iphone16.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 860
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 1070
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "modelo": "iPhone 16 Pro",
+        "imagen": "/iphone16pro.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 1030
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 1110
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "marca": "Apple",
+        "modelo": "iPhone 16 Pro Max",
+        "imagen": "/iphone16proMax.png",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 1220
+            },
+            {
+                "almacenamiento": "512 GB",
+                "precio": 1460
+            },
+            {
+                "almacenamiento": "1 TB",
+                "precio": 1720
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "marca": "Samsung",
+        "modelo": "Galaxy A05",
+        "imagen": "/galaxyA05.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 190
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "marca": "Samsung",
+        "modelo": "Galaxy A06",
+        "imagen": "/galaxyA06.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 190
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "marca": "Samsung",
+        "modelo": "Galaxy A15",
+        "imagen": "/galaxyA15.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 220
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "marca": "Samsung",
+        "modelo": "Galaxy A16",
+        "imagen": "/galaxyA16.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 240
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 310
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "marca": "Samsung",
+        "modelo": "Galaxy A26",
+        "imagen": "/galaxyA26.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 320
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 350
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "marca": "Samsung",
+        "modelo": "Galaxy A36",
+        "imagen": "/galaxyA36.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 370
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 400
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "marca": "Samsung",
+        "modelo": "Galaxy A56",
+        "imagen": "/galaxyA56.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 450
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 480
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "marca": "Samsung",
+        "modelo": "Galaxy S24 FE",
+        "imagen": "/galaxyS24FE.png",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 590
+            },
+            {
+                "almacenamiento": "512 GB",
+                "precio": 630
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "marca": "Samsung",
+        "modelo": "Galaxy S25",
+        "imagen": "/galaxyS25.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 830
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 860
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "marca": "Samsung",
+        "modelo": "Galaxy S25 Ultra",
+        "imagen": "/galaxyS25ultra.png",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 1120
+            },
+            {
+                "almacenamiento": "512 GB",
+                "precio": 1250
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "marca": "Xiaomi",
+        "modelo": "Redmi 14C",
+        "imagen": "/redmi14C.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 180
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 200
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "marca": "Xiaomi",
+        "modelo": "Redmi A5",
+        "imagen": "/redmiA5.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 190
+                
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "marca": "Xiaomi",
+        "modelo": "Redmi Note 14",
+        "imagen": "/redmiNote14.png",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 230
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 260
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "marca": "Xiaomi",
+        "modelo": "Redmi Note 13",
+        "imagen": "/redmiNote13.png",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 290
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "marca": "Xiaomi",
+        "modelo": "Redmi Note 14 Pro",
+        "imagen": "/redmiNote14pro.png",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 310
+            },
+            {
+                "almacenamiento": "512 GB",
+                "precio": 390
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "marca": "Xiaomi",
+        "modelo": "Redmi Note 13 Pro",
+        "imagen": "/redmiNote13pro.png",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 350
+            },
+            {
+                "almacenamiento": "512 GB",
+                "precio": 380
+            }
+        ]
+    }
+]
