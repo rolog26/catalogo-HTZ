@@ -1,10 +1,10 @@
-import './App.css'
-import { BrowserRouter, Routes, Route, useLocation, Link } from 'react-router-dom';
-import Catalogo from './pages/Catalogo.jsx';
-import DetalleCelular from './pages/DetalleCelular.jsx';
-import PoliticaPrivacidad from './pages/PoliticaPrivacidad.jsx';
-import TerminosCondiciones from './pages/TerminosCondiciones.jsx';
-import { AnimatePresence } from 'framer-motion';
+import "./App.css"
+import { BrowserRouter, Routes, Route, useLocation, Link } from "react-router-dom";
+import Catalogo from "./pages/Catalogo.jsx";
+import DetalleCelular from "./pages/DetalleCelular.jsx";
+import PoliticaPrivacidad from "./pages/PoliticaPrivacidad.jsx";
+import TerminosCondiciones from "./pages/TerminosCondiciones.jsx";
+import { AnimatePresence } from "framer-motion";
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -37,12 +37,12 @@ function App() {
       <footer>
         <div>
           <img className="footer-logo" src="/logo.png" alt="Logo de HTZ" />
-          <p className='eslogan'>Tu tecnología, nuestra pasión.</p>
+          <p className="eslogan">Tu tecnología, nuestra pasión.</p>
         </div>
         <p>Todos los derechos reservados &copy; 2025 HTZ</p>
-        <div className='footer-links'>
-          <Link to="/terminos-y-condiciones" className='react-link'>Terminos y condiciones</Link>
-          <Link to="/politica-privacidad" className='react-link'>Politica de privacidad</Link>
+        <div className="footer-links">
+          <Link to="/terminos-y-condiciones" className="react-link">Terminos y condiciones</Link>
+          <Link to="/politica-privacidad" className="react-link">Politica de privacidad</Link>
         </div>
       </footer>
     </BrowserRouter>

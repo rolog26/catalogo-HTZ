@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 export const ProductCard = ({ celular }) => {
 
@@ -9,7 +9,7 @@ export const ProductCard = ({ celular }) => {
         whileTap={{ scale: 0.9 }}
         >
             <motion.h3>{celular.modelo}</motion.h3>
-            <motion.img className="celular-image" src={celular.imagen} alt={celular.modelo} />
+            <motion.img className="celular-image" src={celular.imagen} alt={celular.modelo} loading="lazy" />
             <p>Click para más información</p>
         </motion.div>
     );

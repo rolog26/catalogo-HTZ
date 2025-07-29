@@ -1,7 +1,7 @@
-import { useParams } from 'react-router-dom';
-import celulares from '../data/celulares.json';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useState, useEffect } from 'react';
+import { useParams } from "react-router-dom";
+import celulares from "../data/celulares.json";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect } from "react";
 
 export default function DetalleCelular() {
     const [dolar, setDolar] = useState(null);
@@ -10,25 +10,25 @@ export default function DetalleCelular() {
     const celular = celulares.find(c => c.id === parseInt(id));
 
     useEffect(() => {
-        fetch('/config.json')
+        fetch("/config.json")
         .then(res => res.json())
         .then(data => {
             setDolar(data.dolar);
             setTasas(data.tasas);
         })
-        .catch(err => console.error('Error al cargar la configuración:', err));
+        .catch(err => console.error("Error al cargar la configuración:", err));
     })
 
     if (!celular) return <h2>Celular no encontrado</h2>;
 
     return (
-        <div className='detalle-celular'>
-            <div className='aviso'>
+        <div className="detalle-celular">
+            <div className="aviso">
                 <p>
-                    Los precios pueden estar sujetos a cambios. Consultá vía{' '}
-                    <a href="https://wa.me/5493513574139"><img className='redes-image' src="/wsp-icon.png" alt="Logo de Whatsapp" /> 3513574139</a>{' '}
-                    /{' '}
-                    <a href="https://www.instagram.com/htzmontecristo"><img className='redes-image' src="/ig-icon.png" alt="Logo de Instagram" /> @htz.mc</a>
+                    Los precios pueden estar sujetos a cambios. Consultá vía{" "}
+                    <a href="https://wa.me/5493513574139"><img className="redes-image" src="/wsp-icon.png" alt="Logo de Whatsapp" /> 3513574139</a>{" "}
+                    /
+                    <a href="https://www.instagram.com/htzmontecristo"><img className="redes-image" src="/ig-icon.png" alt="Logo de Instagram" /> @htz.mc</a>
                 </p>
             </div>
             <motion.div
@@ -40,8 +40,8 @@ export default function DetalleCelular() {
             >
                 <motion.h3>{celular.marca} {celular.modelo}</motion.h3>
                 <motion.img className="celular-image" src={celular.imagen} alt={celular.modelo} />
-                <AnimatePresence mode='wait'>
-                    <motion.ul className='variantes-list'
+                <AnimatePresence mode="wait">
+                    <motion.ul className="variantes-list"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
@@ -56,23 +56,23 @@ export default function DetalleCelular() {
                                     {variante.precio.toLocaleString()} USD -{" "}
                                     {precioARS.toLocaleString("es-AR", {
                                         style: "currency",
-                                        currency: 'ARS',
+                                        currency: "ARS",
                                         minimumFractionDigits: 0
                                     })}
                                     {
-                                        <div className='cuotas'>
+                                        <div className="cuotas">
                                             {Object.entries(tasas).map(([cuotas, interes]) => {
                                                 const total = precioARS * interes;
                                                 return (
                                                     <p key={cuotas}>
                                                         {cuotas} cuotas de {" "}{(total / cuotas).toLocaleString("es-AR", {
                                                             style: "currency",
-                                                            currency: 'ARS',
+                                                            currency: "ARS",
                                                             minimumFractionDigits: 0
                                                         })}<br />
                                                         (Total: {" "}{total.toLocaleString("es-AR", {
                                                             style: "currency",
-                                                            currency: 'ARS',
+                                                            currency: "ARS",
                                                             minimumFractionDigits: 0
                                                         })})
                                                     </p>

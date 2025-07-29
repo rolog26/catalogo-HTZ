@@ -147,6 +147,7 @@ footer {
   padding: auto;
   font-weight: bold;
   z-index: 9999;
+  font-size: 16px;
 }
 
 .aviso a:hover {
@@ -174,12 +175,9 @@ h3 {
     font-size: 2rem;
   }
 
-  .aviso {
-    font-size: 12px;
-  }
-
   .grid {
     flex-direction: column;
+    align-items: center;
   }
 
   footer {
