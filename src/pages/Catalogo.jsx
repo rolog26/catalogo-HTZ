@@ -2,8 +2,39 @@ import { Link } from "react-router-dom";
 import celulares from "../data/celulares.json";
 import { ProductCard } from "../components/ProductCard.jsx";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function Catalogo() {
+    const [redes, setRedes] = useState({});
+
+    const getConfigFileName = () => {
+        const hostname = window.location.hostname;
+        if (hostname.includes("montecristo")) return "config-mc.json";
+        if (hostname.includes("cofico")) return "config-cof.json";
+        return "config.json";
+    };
+
+    const fetchConfig = async () => {
+        try {
+            const res = await fetch(getConfigFileName());
+            const data = await res.json();
+            return data;
+        } catch (error) {
+            console.error("Error cargando config:", error);
+            return { redes: {} };
+        }
+    };
+
+    useEffect(() => {
+        const loadConfig = async () => {
+            const config = await fetchConfig();
+            if (config.redes) {
+                setRedes(config.redes);
+            }
+        };
+        loadConfig();
+    }, []);
+
     const celularesPorMarca = celulares.reduce((acc, celular) => {
         if (!acc[celular.marca]) {
             acc[celular.marca] = [];
@@ -23,9 +54,9 @@ export default function Catalogo() {
             <div className="aviso">
                 <p>
                     Consultá por otros modelos vía {" "}
-                    <a href="https://wa.me/5493513574139"><img className="redes-image" src="/wsp-icon.png" alt="Logo de Whatsapp" /> 3513574139</a>{" "}
+                    <a href={redes.whatsapp}><img className="redes-image" src="/wsp-icon.png" alt="Logo de Whatsapp" /> {redes.numero}</a>{" "}
                     /
-                    <a href="https://www.instagram.com/htzmontecristo"><img className="redes-image" src="/ig-icon.png" alt="Logo de Instagram" /> @htz.mc</a>
+                    <a href={redes.instagram}><img className="redes-image" src="/ig-icon.png" alt="Logo de Instagram" /> {redes.usuario}</a>
                 </p>
             </div>
             <h1 className="title">CATÁLOGO DE CELULARES</h1>

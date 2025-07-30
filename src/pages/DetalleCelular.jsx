@@ -6,18 +6,40 @@ import { useState, useEffect } from "react";
 export default function DetalleCelular() {
     const [dolar, setDolar] = useState(null);
     const [tasas, setTasas] = useState({});
+    const [redes, setRedes] = useState({});
     const { id } = useParams();
     const celular = celulares.find(c => c.id === parseInt(id));
 
+    const getConfigFileName = () => {
+        const hostname = window.location.hostname;
+        if (hostname.includes("montecristo")) return "/config-mc.json";
+        if (hostname.includes("cofico")) return "/config-cof.json";
+        return "/config.json";
+    };
+
+    const fetchConfig = async () => {
+        try {
+            const res = await fetch(getConfigFileName());
+            const data = await res.json();
+            return data;
+        } catch (error) {
+            console.error("Error fetching config:", error);
+            return { dolar: 0, tasas: {} };
+        }
+    }
+
     useEffect(() => {
-        fetch("/config.json")
-        .then(res => res.json())
-        .then(data => {
-            setDolar(data.dolar);
-            setTasas(data.tasas);
-        })
-        .catch(err => console.error("Error al cargar la configuración:", err));
-    })
+        window.scrollTo({ top: 0, behavior: "smooth"})
+        const loadConfig = async () => {
+            const config = await fetchConfig();
+                if (config) {
+                    setDolar(config.dolar);
+                    setTasas(config.tasas);
+                    setRedes(config.redes || {});
+                }
+        };
+        loadConfig();
+    }, []);
 
     if (!celular) return <h2>Celular no encontrado</h2>;
 
@@ -26,9 +48,9 @@ export default function DetalleCelular() {
             <div className="aviso">
                 <p>
                     Los precios pueden estar sujetos a cambios. Consultá vía{" "}
-                    <a href="https://wa.me/5493513574139"><img className="redes-image" src="/wsp-icon.png" alt="Logo de Whatsapp" /> 3513574139</a>{" "}
+                    <a href={redes.whatsapp}><img className="redes-image" src="/wsp-icon.png" alt="Logo de Whatsapp" /> {redes.numero}</a>{" "}
                     /
-                    <a href="https://www.instagram.com/htzmontecristo"><img className="redes-image" src="/ig-icon.png" alt="Logo de Instagram" /> @htz.mc</a>
+                    <a href={redes.instagram}><img className="redes-image" src="/ig-icon.png" alt="Logo de Instagram" /> {redes.usuario}</a>
                 </p>
             </div>
             <motion.div
