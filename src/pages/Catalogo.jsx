@@ -11,6 +11,7 @@ export default function Catalogo() {
         const hostname = window.location.hostname;
         if (hostname.includes("montecristo")) return "config-mc.json";
         if (hostname.includes("cofico")) return "config-cof.json";
+        if (hostname.includes("altacordoba")) return "config-altacba.json";
         return "config.json";
     };
 
