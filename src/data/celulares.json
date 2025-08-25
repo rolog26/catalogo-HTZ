@@ -71,7 +71,7 @@
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 1070
+                "precio": 1030
             }
         ]
     },
@@ -83,11 +83,11 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 1030
+                "precio": 1020
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 1110
+                "precio": 1120
             }
         ]
     },
@@ -99,11 +99,11 @@
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 1220
+                "precio": 1200
             },
             {
                 "almacenamiento": "512 GB",
-                "precio": 1460
+                "precio": 1420
             },
             {
                 "almacenamiento": "1 TB",
