@@ -7,7 +7,7 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 590
+                "precio": 580
             }
         ]
     },
@@ -114,20 +114,20 @@
     {
         "id": 8,
         "marca": "Samsung",
-        "modelo": "Galaxy A05",
-        "imagen": "/galaxyA05.webp",
+        "modelo": "Galaxy A06",
+        "imagen": "/galaxyA06.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 190
+                "precio": 160
             }
         ]
     },
     {
         "id": 9,
         "marca": "Samsung",
-        "modelo": "Galaxy A06",
-        "imagen": "/galaxyA06.webp",
+        "modelo": "Galaxy A07",
+        "imagen": "/galaxyA07.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -137,18 +137,6 @@
     },
     {
         "id": 10,
-        "marca": "Samsung",
-        "modelo": "Galaxy A15",
-        "imagen": "/galaxyA15.webp",
-        "variantes": [
-            {
-                "almacenamiento": "128 GB",
-                "precio": 220
-            }
-        ]
-    },
-    {
-        "id": 11,
         "marca": "Samsung",
         "modelo": "Galaxy A16",
         "imagen": "/galaxyA16.webp",
@@ -164,7 +152,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 11,
         "marca": "Samsung",
         "modelo": "Galaxy A26",
         "imagen": "/galaxyA26.webp",
@@ -180,7 +168,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 12,
         "marca": "Samsung",
         "modelo": "Galaxy A36",
         "imagen": "/galaxyA36.webp",
@@ -196,7 +184,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 13,
         "marca": "Samsung",
         "modelo": "Galaxy A56",
         "imagen": "/galaxyA56.webp",
@@ -212,7 +200,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 14,
         "marca": "Samsung",
         "modelo": "Galaxy S24 FE",
         "imagen": "/galaxyS24FE.webp",
@@ -228,7 +216,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 15,
         "marca": "Samsung",
         "modelo": "Galaxy S25",
         "imagen": "/galaxyS25.webp",
@@ -244,7 +232,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 16,
         "marca": "Samsung",
         "modelo": "Galaxy S25 Ultra",
         "imagen": "/galaxyS25ultra.webp",
@@ -260,7 +248,32 @@
         ]
     },
     {
+        "id": 17,
+        "marca": "Xiaomi",
+        "modelo": "Redmi A5",
+        "imagen": "/redmiA5.webp",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 190
+                
+            }
+        ]
+    },
+    {
         "id": 18,
+        "marca": "Xiaomi",
+        "modelo": "Redmi Note 13",
+        "imagen": "/redmiNote13.webp",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 290
+            }
+        ]
+    },
+    {
+        "id": 19,
         "marca": "Xiaomi",
         "modelo": "Redmi 14C",
         "imagen": "/redmi14C.webp",
@@ -272,19 +285,6 @@
             {
                 "almacenamiento": "256 GB",
                 "precio": 200
-            }
-        ]
-    },
-    {
-        "id": 19,
-        "marca": "Xiaomi",
-        "modelo": "Redmi A5",
-        "imagen": "/redmiA5.webp",
-        "variantes": [
-            {
-                "almacenamiento": "128 GB",
-                "precio": 190
-                
             }
         ]
     },
@@ -307,12 +307,16 @@
     {
         "id": 21,
         "marca": "Xiaomi",
-        "modelo": "Redmi Note 13",
-        "imagen": "/redmiNote13.webp",
+        "modelo": "Redmi Note 13 Pro",
+        "imagen": "/redmiNote13pro.webp",
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 290
+                "precio": 350
+            },
+            {
+                "almacenamiento": "512 GB",
+                "precio": 380
             }
         ]
     },
@@ -329,22 +333,6 @@
             {
                 "almacenamiento": "512 GB",
                 "precio": 390
-            }
-        ]
-    },
-    {
-        "id": 23,
-        "marca": "Xiaomi",
-        "modelo": "Redmi Note 13 Pro",
-        "imagen": "/redmiNote13pro.webp",
-        "variantes": [
-            {
-                "almacenamiento": "256 GB",
-                "precio": 350
-            },
-            {
-                "almacenamiento": "512 GB",
-                "precio": 380
             }
         ]
     }
