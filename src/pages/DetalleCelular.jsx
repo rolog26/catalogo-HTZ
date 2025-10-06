@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import celulares from "../data/celulares.json";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function DetalleCelular() {
     const [dolar, setDolar] = useState(null);
@@ -26,10 +27,8 @@ export default function DetalleCelular() {
         <div className="detalle-celular">
             <div className="aviso">
                 <p>
-                    Los precios pueden estar sujetos a cambios. Consultá vía{" "}
-                    <a href="https://wa.me/5493516660169"><img className="redes-image" src="/wsp-icon.png" alt="Logo de Whatsapp" /> 3516660169</a>{" "}
-                    /
-                    <a href="https://www.instagram.com/htzserviciotecnico"><img className="redes-image" src="/ig-icon.png" alt="Logo de Instagram" /> @htzserviciotecnico</a>
+                    Los precios pueden estar sujetos a cambios. Consultá vía
+                    <a href="/locales"> <FaWhatsapp size={18} />Whatsapp / <FaInstagram size={18} />Instagram</a>
                 </p>
             </div>
             <motion.div

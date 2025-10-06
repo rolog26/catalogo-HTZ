@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import celulares from "../data/celulares.json";
 import { ProductCard } from "../components/ProductCard.jsx";
 import { motion } from "framer-motion";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Catalogo() {
 
@@ -23,10 +24,8 @@ export default function Catalogo() {
         >
             <div className="aviso">
                 <p>
-                    Consultá por otros modelos vía {" "}
-                    <a href="https://wa.me/5493516660169"><img className="redes-image" src="/wsp-icon.png" alt="Logo de Whatsapp" /> 3516660169</a>{" "}
-                    /
-                    <a href="https://www.instagram.com/htzserviciotecnico"><img className="redes-image" src="/ig-icon.png" alt="Logo de Instagram" /> @htzserviciotecnico</a>
+                    Consultá por otros modelos vía
+                    <a href="/locales"> <FaWhatsapp size={18} />Whatsapp / <FaInstagram size={18} />Instagram</a>
                 </p>
             </div>
             <h1 className="title">CATÁLOGO DE CELULARES</h1>
