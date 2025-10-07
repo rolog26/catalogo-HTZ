@@ -3,7 +3,7 @@
         "id": 1,
         "marca": "Apple",
         "modelo": "iPhone 13",
-        "imagen": "/img/celulares/iphone13.webp",
+        "imagen": "/celulares/iphone13.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -15,7 +15,7 @@
         "id": 2,
         "marca": "Apple",
         "modelo": "iPhone 14",
-        "imagen": "/img/celulares/iphone14.webp",
+        "imagen": "/celulares/iphone14.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -27,7 +27,7 @@
         "id": 3,
         "marca": "Apple",
         "modelo": "iPhone 15",
-        "imagen": "/img/celulares/iphone15.webp",
+        "imagen": "/celulares/iphone15.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -43,7 +43,7 @@
         "id": 4,
         "marca": "Apple",
         "modelo": "iPhone 16e",
-        "imagen": "/img/celulares/iphone16e.webp",
+        "imagen": "/celulares/iphone16e.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -63,7 +63,7 @@
         "id": 5,
         "marca": "Apple",
         "modelo": "iPhone 16",
-        "imagen": "/img/celulares/iphone16.webp",
+        "imagen": "/celulares/iphone16.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -79,7 +79,7 @@
         "id": 6,
         "marca": "Apple",
         "modelo": "iPhone 16 Pro",
-        "imagen": "/img/celulares/iphone16pro.webp",
+        "imagen": "/celulares/iphone16pro.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -95,7 +95,7 @@
         "id": 7,
         "marca": "Apple",
         "modelo": "iPhone 16 Pro Max",
-        "imagen": "/img/celulares/iphone16proMax.webp",
+        "imagen": "/celulares/iphone16proMax.webp",
         "variantes": [
             {
                 "almacenamiento": "256 GB",
@@ -115,7 +115,7 @@
         "id": 8,
         "marca": "Samsung",
         "modelo": "Galaxy A06",
-        "imagen": "/img/celulares/galaxyA06.webp",
+        "imagen": "/celulares/galaxyA06.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -127,7 +127,7 @@
         "id": 9,
         "marca": "Samsung",
         "modelo": "Galaxy A07",
-        "imagen": "/img/celulares/galaxyA07.webp",
+        "imagen": "/celulares/galaxyA07.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -139,7 +139,7 @@
         "id": 10,
         "marca": "Samsung",
         "modelo": "Galaxy A16",
-        "imagen": "/img/celulares/galaxyA16.webp",
+        "imagen": "/celulares/galaxyA16.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -155,7 +155,7 @@
         "id": 11,
         "marca": "Samsung",
         "modelo": "Galaxy A17",
-        "imagen": "/img/celulares/galaxyA17.webp",
+        "imagen": "/celulares/galaxyA17.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -171,7 +171,7 @@
         "id": 12,
         "marca": "Samsung",
         "modelo": "Galaxy A26",
-        "imagen": "/img/celulares/galaxyA26.webp",
+        "imagen": "/celulares/galaxyA26.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -187,7 +187,7 @@
         "id": 13,
         "marca": "Samsung",
         "modelo": "Galaxy A36",
-        "imagen": "/img/celulares/galaxyA36.webp",
+        "imagen": "/celulares/galaxyA36.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -203,7 +203,7 @@
         "id": 14,
         "marca": "Samsung",
         "modelo": "Galaxy A56",
-        "imagen": "/img/celulares/galaxyA56.webp",
+        "imagen": "/celulares/galaxyA56.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -219,7 +219,7 @@
         "id": 15,
         "marca": "Samsung",
         "modelo": "Galaxy S24 FE",
-        "imagen": "/img/celulares/galaxyS24FE.webp",
+        "imagen": "/celulares/galaxyS24FE.webp",
         "variantes": [
             {
                 "almacenamiento": "256 GB",
@@ -235,7 +235,7 @@
         "id": 16,
         "marca": "Samsung",
         "modelo": "Galaxy S25",
-        "imagen": "/img/celulares/galaxyS25.webp",
+        "imagen": "/celulares/galaxyS25.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -251,7 +251,7 @@
         "id": 17,
         "marca": "Samsung",
         "modelo": "Galaxy S25 Ultra",
-        "imagen": "/img/celulares/galaxyS25ultra.webp",
+        "imagen": "/celulares/galaxyS25ultra.webp",
         "variantes": [
             {
                 "almacenamiento": "256 GB",
@@ -267,7 +267,7 @@
         "id": 18,
         "marca": "Xiaomi",
         "modelo": "Redmi A5",
-        "imagen": "/img/celulares/redmiA5.webp",
+        "imagen": "/celulares/redmiA5.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -280,7 +280,7 @@
         "id": 19,
         "marca": "Xiaomi",
         "modelo": "Redmi 14C",
-        "imagen": "/img/celulares/redmi14C.webp",
+        "imagen": "/celulares/redmi14C.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -296,7 +296,7 @@
         "id": 20,
         "marca": "Xiaomi",
         "modelo": "Redmi 15C",
-        "imagen": "/img/celulares/redmi15C.webp",
+        "imagen": "/celulares/redmi15C.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -312,7 +312,7 @@
         "id": 21,
         "marca": "Xiaomi",
         "modelo": "Redmi Note 13",
-        "imagen": "/img/celulares/redmiNote13.webp",
+        "imagen": "/celulares/redmiNote13.webp",
         "variantes": [
             {
                 "almacenamiento": "256 GB",
@@ -324,7 +324,7 @@
         "id": 22,
         "marca": "Xiaomi",
         "modelo": "Redmi Note 14",
-        "imagen": "/img/celulares/redmiNote14.webp",
+        "imagen": "/celulares/redmiNote14.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -340,7 +340,7 @@
         "id": 23,
         "marca": "Xiaomi",
         "modelo": "Redmi Note 13 Pro",
-        "imagen": "/img/celulares/redmiNote13pro.webp",
+        "imagen": "/celulares/redmiNote13pro.webp",
         "variantes": [
             {
                 "almacenamiento": "256 GB",
@@ -356,7 +356,7 @@
         "id": 24,
         "marca": "Xiaomi",
         "modelo": "Redmi Note 14 Pro",
-        "imagen": "/img/celulares/redmiNote14pro.webp",
+        "imagen": "/celulares/redmiNote14pro.webp",
         "variantes": [
             {
                 "almacenamiento": "256 GB",
