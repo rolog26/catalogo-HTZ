@@ -25,7 +25,7 @@ export default function Catalogo() {
             <div className="aviso">
                 <p>
                     Consultá por otros modelos vía
-                    <a href="/locales"> <FaWhatsapp size={18} />Whatsapp / <FaInstagram size={18} />Instagram</a>
+                    <Link to="/locales"> <FaWhatsapp size={18} />Whatsapp / <FaInstagram size={18} />Instagram</Link>
                 </p>
             </div>
             <h1 className="title">CATÁLOGO DE CELULARES</h1>

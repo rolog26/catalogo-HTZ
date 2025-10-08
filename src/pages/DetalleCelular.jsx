@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import celulares from "../data/celulares.json";
 import { motion, AnimatePresence } from "framer-motion";
@@ -28,7 +29,7 @@ export default function DetalleCelular() {
             <div className="aviso">
                 <p>
                     Los precios pueden estar sujetos a cambios. Consultá vía
-                    <a href="/locales"> <FaWhatsapp size={18} />Whatsapp / <FaInstagram size={18} />Instagram</a>
+                    <Link to="/locales"> <FaWhatsapp size={18} />Whatsapp / <FaInstagram size={18} />Instagram</Link>
                 </p>
             </div>
             <motion.div
