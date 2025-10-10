@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Catalogo() {
-
     const celularesPorMarca = celulares.reduce((acc, celular) => {
         if (!acc[celular.marca]) {
             acc[celular.marca] = [];

@@ -11,7 +11,7 @@ function AnimatedRoutes() {
   const location = useLocation();
 
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode="sync">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Catalogo />} />
         <Route path="/celular/:id" element={<DetalleCelular/>} />

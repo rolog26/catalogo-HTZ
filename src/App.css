@@ -178,6 +178,7 @@ h3 {
   .grid {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   footer {
@@ -189,6 +190,26 @@ h3 {
 .footer-logo {
   height: 2.5em;
 }
+
+.local-card {
+    flex-direction: column !important;
+    padding: 0 !important;
+  }
+
+  .local-img,
+  .local-map iframe {
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .local-info {
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+
+  .locales {
+    padding: auto;
+  }
 }
 
 .locales-container {

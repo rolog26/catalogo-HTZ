@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { div } from "framer-motion/client";
 import { FaInstagram, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function Locales() {
@@ -50,43 +51,45 @@ export default function Locales() {
     ];
 
     return (
-        <motion.div
-            className="locales-container"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-        >
-            <h1 className="title">Nuestros Locales</h1>
-            <div className="grid">
-                {locales.map((local) => (
-                    <motion.div
-                        className="local-card"
-                        key={local.nombre}
-                        whileOver={{ scale: 1 }}
-                    >
-                        <img src={local.imagen} alt={local.nombre} className="local-img" />
-                        <div className="local-info">
-                            <h2>{local.nombre}</h2>
-                            <a href={local.mapsLink}><FaMapMarkerAlt size={18} /> {local.direccion}</a>
-                            <a href={local.whatsappLink}><FaWhatsapp size={20} /> {local.telefono}</a>
-                            <a href={local.instagramLink}><FaInstagram size={20} /> @{local.instagram}</a>
-                        </div>
-                        <div className="local-map">
-                            <iframe
-                                src={local.mapsEmbed}
-                                width="100%"
-                                height="250"
-                                style={{ border: 0 }}
-                                allowFullScreen=""
-                                loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"
-                                title={`Mapa ${local.nombre}`}
-                            ></iframe>
-                        </div>
-                    </motion.div>
-                ))}
-            </div>
-        </motion.div>
+        <div className="locales">
+            <motion.div
+                className="locales-container"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.15 }}
+            >
+                <motion.h1 className="title">Nuestros Locales</motion.h1>
+                <div className="grid">
+                    {locales.map((local) => (
+                        <motion.div
+                            className="local-card"
+                            key={local.nombre}
+                            whileOver={{ scale: 1 }}
+                        >
+                            <img src={local.imagen} alt={local.nombre} className="local-img" />
+                            <div className="local-info">
+                                <h2>{local.nombre}</h2>
+                                <a href={local.mapsLink}><FaMapMarkerAlt size={18} /> {local.direccion}</a>
+                                <a href={local.whatsappLink}><FaWhatsapp size={20} /> {local.telefono}</a>
+                                <a href={local.instagramLink}><FaInstagram size={20} /> @{local.instagram}</a>
+                            </div>
+                            <div className="local-map">
+                                <iframe
+                                    src={local.mapsEmbed}
+                                    width="100%"
+                                    height="250"
+                                    style={{ border: 0 }}
+                                    allowFullScreen=""
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                    title={`Mapa ${local.nombre}`}
+                                ></iframe>
+                            </div>
+                        </motion.div>
+                    ))}
+                </div>
+            </motion.div>
+        </div>
     )
 }
