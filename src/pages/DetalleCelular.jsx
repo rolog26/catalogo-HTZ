@@ -19,7 +19,7 @@ export default function DetalleCelular() {
                 setTasas(data.tasas);
             })
             .catch(err => console.error("Error al cargar la configuración:", err));
-        window.scrollTo({ top: 0, behavior: "smooth" })
+        window.scrollTo(0, 0);
     }, []);
 
     if (!celular) return <h2>Celular no encontrado</h2>;
