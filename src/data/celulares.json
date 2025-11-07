@@ -7,7 +7,7 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 580
+                "precio": 560
             }
         ]
     },
@@ -31,11 +31,11 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 780
+                "precio": 720
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 940
+                "precio": 850
             }
         ]
     },
@@ -47,11 +47,11 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 860
+                "precio": 790
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 1030
+                "precio": 940
             }
         ]
     },
