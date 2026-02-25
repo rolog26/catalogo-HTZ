@@ -131,7 +131,7 @@
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 1480
+                "precio": 1490
             }
         ]
     },
@@ -168,10 +168,6 @@
             {
                 "almacenamiento": "128 GB",
                 "precio": 210
-            },
-            {
-                "almacenamiento": "256 GB",
-                "precio": 240
             }
         ]
     },
@@ -183,11 +179,11 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 290
+                "precio": 240
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 310
+                "precio": 290
             }
         ]
     },
@@ -199,7 +195,7 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 280
+                "precio": 275
             },
             {
                 "almacenamiento": "256 GB",
@@ -215,11 +211,11 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 330
+                "precio": 325
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 350
+                "precio": 345
             }
         ]
     },
@@ -231,27 +227,27 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 430
+                "precio": 390
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 460
+                "precio": 430
             }
         ]
     },
     {
         "id": 18,
         "marca": "Samsung",
-        "modelo": "Galaxy S24 FE",
-        "imagen": "/celulares/galaxyS24FE.webp",
+        "modelo": "Galaxy S25 FE",
+        "imagen": "/celulares/galaxyS25FE.webp",
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 570
+                "precio": 740
             },
             {
                 "almacenamiento": "512 GB",
-                "precio": 630
+                "precio": 770
             }
         ]
     },
@@ -279,11 +275,11 @@
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 1100
+                "precio": 1080
             },
             {
                 "almacenamiento": "512 GB",
-                "precio": 1180
+                "precio": 1130
             }
         ]
     },
@@ -295,7 +291,7 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 155
+                "precio": 160
                 
             }
         ]
@@ -308,11 +304,11 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 155
+                "precio": 175
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 170
+                "precio": 195
             }
         ]
     },
@@ -324,7 +320,7 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 195
+                "precio": 190
             },
             {
                 "almacenamiento": "256 GB",
@@ -356,11 +352,11 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 200
+                "precio": 220
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 230
+                "precio": 250
             }
         ]
     },
@@ -372,11 +368,11 @@
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 315
+                "precio": 310
             },
             {
                 "almacenamiento": "512 GB",
-                "precio": 330
+                "precio": 340
             }
         ]
     },
@@ -388,11 +384,11 @@
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 290
+                "precio": 350
             },
             {
                 "almacenamiento": "512 GB",
-                "precio": 340
+                "precio": 390
             }
         ]
     },
@@ -401,22 +397,6 @@
         "marca": "Motorola",
         "modelo": "G05",
         "imagen": "/celulares/motoG05.webp",
-        "variantes": [
-            {
-                "almacenamiento": "128 GB",
-                "precio": 137
-            },
-            {
-                "almacenamiento": "256 GB",
-                "precio": 172
-            }
-        ]
-    },
-    {
-        "id": 29,
-        "marca": "Motorola",
-        "modelo": "G15",
-        "imagen": "/celulares/motoG15.webp",
         "variantes": [
             {
                 "almacenamiento": "128 GB",
@@ -429,6 +409,22 @@
         ]
     },
     {
+        "id": 29,
+        "marca": "Motorola",
+        "modelo": "G15",
+        "imagen": "/celulares/motoG15.webp",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 180
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 190
+            }
+        ]
+    },
+    {
         "id": 30,
         "marca": "Motorola",
         "modelo": "G35",
@@ -436,11 +432,11 @@
         "variantes": [
             {
                 "almacenamiento": "128 GB",
-                "precio": 200
+                "precio": 195
             },
             {
                 "almacenamiento": "256 GB",
-                "precio": 220
+                "precio": 230
             }
         ]
     },
@@ -452,7 +448,7 @@
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 274
+                "precio": 280
             }
         ]
     },
@@ -464,11 +460,11 @@
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 315
+                "precio": 290
             },
             {
                 "almacenamiento": "512 GB",
-                "precio": 356
+                "precio": 350
             }
         ]
     },
