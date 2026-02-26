@@ -331,22 +331,6 @@
     {
         "id": 24,
         "marca": "Xiaomi",
-        "modelo": "Redmi Note 13",
-        "imagen": "/celulares/redmiNote13.webp",
-        "variantes": [
-            {
-                "almacenamiento": "128 GB",
-                "precio": 200
-            },
-            {
-                "almacenamiento": "256 GB",
-                "precio": 255
-            }
-        ]
-    },
-    {
-        "id": 25,
-        "marca": "Xiaomi",
         "modelo": "Redmi Note 14",
         "imagen": "/celulares/redmiNote14.webp",
         "variantes": [
@@ -357,6 +341,22 @@
             {
                 "almacenamiento": "256 GB",
                 "precio": 250
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "marca": "Xiaomi",
+        "modelo": "Redmi Note 15",
+        "imagen": "/celulares/redmiNote15.webp",
+        "variantes": [
+            {
+                "almacenamiento": "128 GB",
+                "precio": 270
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 300
             }
         ]
     },
@@ -394,6 +394,22 @@
     },
     {
         "id": 28,
+        "marca": "Xiaomi",
+        "modelo": "Redmi Note 15 Pro",
+        "imagen": "/celulares/redmiNote15pro.webp",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 370
+            },
+            {
+                "almacenamiento": "512 GB",
+                "precio": 410
+            }
+        ]
+    },
+    {
+        "id": 29,
         "marca": "Motorola",
         "modelo": "G05",
         "imagen": "/celulares/motoG05.webp",
@@ -409,7 +425,23 @@
         ]
     },
     {
-        "id": 29,
+        "id": 30,
+        "marca": "Motorola",
+        "modelo": "G06",
+        "imagen": "/celulares/motoG06.webp",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 180
+            },
+            {
+                "almacenamiento": "512 GB",
+                "precio": 190
+            }
+        ]
+    },
+    {
+        "id": 31,
         "marca": "Motorola",
         "modelo": "G15",
         "imagen": "/celulares/motoG15.webp",
@@ -425,7 +457,7 @@
         ]
     },
     {
-        "id": 30,
+        "id": 32,
         "marca": "Motorola",
         "modelo": "G35",
         "imagen": "/celulares/motoG35.webp",
@@ -441,7 +473,31 @@
         ]
     },
     {
-        "id": 31,
+        "id": 33,
+        "marca": "Motorola",
+        "modelo": "G56",
+        "imagen": "/celulares/motoG56.webp",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 250
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "marca": "Motorola",
+        "modelo": "G75",
+        "imagen": "/celulares/motoG75.webp",
+        "variantes": [
+            {
+                "almacenamiento": "256 GB",
+                "precio": 260
+            }
+        ]
+    },
+    {
+        "id": 35,
         "marca": "Motorola",
         "modelo": "G85",
         "imagen": "/celulares/motoG85.webp",
@@ -453,58 +509,18 @@
         ]
     },
     {
-        "id": 32,
+        "id": 36,
         "marca": "Motorola",
-        "modelo": "Edge 50 Fusion",
-        "imagen": "/celulares/motoEdge50Fusion.webp",
+        "modelo": "G86",
+        "imagen": "/celulares/motoG86.webp",
         "variantes": [
             {
                 "almacenamiento": "256 GB",
-                "precio": 290
+                "precio": 300
             },
             {
                 "almacenamiento": "512 GB",
-                "precio": 350
-            }
-        ]
-    },
-    {
-        "id": 33,
-        "marca": "Motorola",
-        "modelo": "Edge 50",
-        "imagen": "/celulares/motoEdge50.webp",
-        "variantes": [
-            {
-                "almacenamiento": "256 GB",
-                "precio": 370
-            },
-            {
-                "almacenamiento": "512 GB",
-                "precio": 400
-            }
-        ]
-    },
-    {
-        "id": 34,
-        "marca": "Motorola",
-        "modelo": "Edge 50 Pro",
-        "imagen": "/celulares/motoEdge50Pro.webp",
-        "variantes": [
-            {
-                "almacenamiento": "512 GB",
-                "precio": 510
-            }
-        ]
-    },
-    {
-        "id": 35,
-        "marca": "Motorola",
-        "modelo": "Edge 50 Ultra",
-        "imagen": "/celulares/motoEdge50Ultra.webp",
-        "variantes": [
-            {
-                "almacenamiento": "1 TB",
-                "precio": 890
+                "precio": 310
             }
         ]
     }
