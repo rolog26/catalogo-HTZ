@@ -2,30 +2,6 @@
     {
         "id": 1,
         "marca": "Apple",
-        "modelo": "iPhone 13",
-        "imagen": "/celulares/iphone13.webp",
-        "variantes": [
-            {
-                "almacenamiento": "128 GB",
-                "precio": 560
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "marca": "Apple",
-        "modelo": "iPhone 14",
-        "imagen": "/celulares/iphone14.webp",
-        "variantes": [
-            {
-                "almacenamiento": "128 GB",
-                "precio": 650
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "marca": "Apple",
         "modelo": "iPhone 15",
         "imagen": "/celulares/iphone15.webp",
         "variantes": [
@@ -36,7 +12,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 2,
         "marca": "Apple",
         "modelo": "iPhone 16",
         "imagen": "/celulares/iphone16.webp",
@@ -52,7 +28,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 3,
         "marca": "Apple",
         "modelo": "iPhone 16 Pro",
         "imagen": "/celulares/iphone16pro.webp",
@@ -68,7 +44,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 4,
         "marca": "Apple",
         "modelo": "iPhone 16 Pro Max",
         "imagen": "/celulares/iphone16proMax.webp",
@@ -88,7 +64,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 5,
         "marca": "Apple",
         "modelo": "iPhone Air",
         "imagen": "/celulares/iphoneAir.webp",
@@ -100,7 +76,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 6,
         "marca": "Apple",
         "modelo": "iPhone 17",
         "imagen": "/celulares/iphone17.webp",
@@ -112,7 +88,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 7,
         "marca": "Apple",
         "modelo": "iPhone 17 Pro",
         "imagen": "/celulares/iphone17pro.webp",
@@ -124,7 +100,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 8,
         "marca": "Apple",
         "modelo": "iPhone 17 Pro Max",
         "imagen": "/celulares/iphone17proMax.webp",
@@ -136,7 +112,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 9,
         "marca": "Samsung",
         "modelo": "Galaxy A06",
         "imagen": "/celulares/galaxyA06.webp",
@@ -148,7 +124,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 10,
         "marca": "Samsung",
         "modelo": "Galaxy A07",
         "imagen": "/celulares/galaxyA07.webp",
@@ -156,11 +132,15 @@
             {
                 "almacenamiento": "128 GB",
                 "precio": 200
+            },
+            {
+                "almacenamiento": "256 GB",
+                "precio": 220
             }
         ]
     },
     {
-        "id": 13,
+        "id": 11,
         "marca": "Samsung",
         "modelo": "Galaxy A16",
         "imagen": "/celulares/galaxyA16.webp",
@@ -172,7 +152,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 12,
         "marca": "Samsung",
         "modelo": "Galaxy A17",
         "imagen": "/celulares/galaxyA17.webp",
@@ -188,7 +168,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 13,
         "marca": "Samsung",
         "modelo": "Galaxy A26",
         "imagen": "/celulares/galaxyA26.webp",
@@ -204,7 +184,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 14,
         "marca": "Samsung",
         "modelo": "Galaxy A36",
         "imagen": "/celulares/galaxyA36.webp",
@@ -220,7 +200,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 15,
         "marca": "Samsung",
         "modelo": "Galaxy A56",
         "imagen": "/celulares/galaxyA56.webp",
@@ -236,7 +216,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 16,
         "marca": "Samsung",
         "modelo": "Galaxy S25 FE",
         "imagen": "/celulares/galaxyS25FE.webp",
@@ -252,7 +232,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 17,
         "marca": "Samsung",
         "modelo": "Galaxy S25",
         "imagen": "/celulares/galaxyS25.webp",
@@ -268,7 +248,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 18,
         "marca": "Samsung",
         "modelo": "Galaxy S25 Ultra",
         "imagen": "/celulares/galaxyS25ultra.webp",
@@ -284,7 +264,7 @@
         ]
     },
     {
-        "id": 21,
+        "id": 19,
         "marca": "Xiaomi",
         "modelo": "Redmi A5",
         "imagen": "/celulares/redmiA5.webp",
@@ -297,7 +277,7 @@
         ]
     },
     {
-        "id": 22,
+        "id": 20,
         "marca": "Xiaomi",
         "modelo": "Redmi 14C",
         "imagen": "/celulares/redmi14C.webp",
@@ -313,7 +293,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 21,
         "marca": "Xiaomi",
         "modelo": "Redmi 15C",
         "imagen": "/celulares/redmi15C.webp",
@@ -329,7 +309,7 @@
         ]
     },
     {
-        "id": 24,
+        "id": 22,
         "marca": "Xiaomi",
         "modelo": "Redmi Note 14",
         "imagen": "/celulares/redmiNote14.webp",
@@ -345,7 +325,7 @@
         ]
     },
     {
-        "id": 25,
+        "id": 23,
         "marca": "Xiaomi",
         "modelo": "Redmi Note 15",
         "imagen": "/celulares/redmiNote15.webp",
@@ -361,7 +341,7 @@
         ]
     },
     {
-        "id": 26,
+        "id": 24,
         "marca": "Xiaomi",
         "modelo": "Redmi Note 13 Pro",
         "imagen": "/celulares/redmiNote13pro.webp",
@@ -377,7 +357,7 @@
         ]
     },
     {
-        "id": 27,
+        "id": 25,
         "marca": "Xiaomi",
         "modelo": "Redmi Note 14 Pro",
         "imagen": "/celulares/redmiNote14pro.webp",
@@ -393,7 +373,7 @@
         ]
     },
     {
-        "id": 28,
+        "id": 26,
         "marca": "Xiaomi",
         "modelo": "Redmi Note 15 Pro",
         "imagen": "/celulares/redmiNote15pro.webp",
@@ -409,7 +389,7 @@
         ]
     },
     {
-        "id": 29,
+        "id": 27,
         "marca": "Motorola",
         "modelo": "G05",
         "imagen": "/celulares/motoG05.webp",
@@ -425,7 +405,7 @@
         ]
     },
     {
-        "id": 30,
+        "id": 28,
         "marca": "Motorola",
         "modelo": "G06",
         "imagen": "/celulares/motoG06.webp",
@@ -441,7 +421,7 @@
         ]
     },
     {
-        "id": 31,
+        "id": 29,
         "marca": "Motorola",
         "modelo": "G15",
         "imagen": "/celulares/motoG15.webp",
@@ -457,7 +437,7 @@
         ]
     },
     {
-        "id": 32,
+        "id": 30,
         "marca": "Motorola",
         "modelo": "G35",
         "imagen": "/celulares/motoG35.webp",
@@ -473,7 +453,7 @@
         ]
     },
     {
-        "id": 33,
+        "id": 31,
         "marca": "Motorola",
         "modelo": "G56",
         "imagen": "/celulares/motoG56.webp",
@@ -485,7 +465,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 32,
         "marca": "Motorola",
         "modelo": "G75",
         "imagen": "/celulares/motoG75.webp",
@@ -497,7 +477,7 @@
         ]
     },
     {
-        "id": 35,
+        "id": 33,
         "marca": "Motorola",
         "modelo": "G85",
         "imagen": "/celulares/motoG85.webp",
@@ -509,7 +489,7 @@
         ]
     },
     {
-        "id": 36,
+        "id": 34,
         "marca": "Motorola",
         "modelo": "G86",
         "imagen": "/celulares/motoG86.webp",

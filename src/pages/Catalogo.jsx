@@ -27,7 +27,6 @@ export default function Catalogo() {
                     <Link to="/locales"> <FaWhatsapp size={18} />Whatsapp / <FaInstagram size={18} />Instagram</Link>
                 </p>
             </div>
-            <h1 className="title">CATÁLOGO DE CELULARES</h1>
             {Object.entries(celularesPorMarca).map(([marca, celulares]) => (
                 <div key={marca} className="marca-section">
                     <h2>{marca}</h2>

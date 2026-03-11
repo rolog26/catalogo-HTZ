@@ -1,7 +1,13 @@
 #root {
   text-align: center;
   align-content: center;
-  margin: 0 5%;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 0 50px;
 }
 
 footer {
@@ -9,7 +15,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-top: 100px;
+  margin: 20px 50px 0 50px;
   padding: 10px 0 70px 0;
   border-top: 1px solid #707070;
 }
@@ -19,21 +25,14 @@ footer {
 }
 
 .logo {
-  height: 6em;
+  height: 5em;
   will-change: filter;
   transition: filter 300ms;
-  padding-top: 30px;
+  padding: 30px 10px 25px 10px;
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 5px #4ce381);
-}
-
-.footer-logo {
-  padding: 20px 0 0 0;
-  height: 3.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  filter: drop-shadow(0 0 10px #4ce381);
 }
 
 .eslogan {
@@ -48,17 +47,10 @@ footer {
   gap: 1rem;
 }
 
-.title {
-  font-size: 2.5rem;
-  color: #ffffffcd;
-  margin: 10px 0 0 0;
-}
-
 .card {
-  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
   backdrop-filter: blur(8px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  border: 1px solid #707070;
+  border: 1px solid white;
   border-radius: 25px;
   width: 250px;
   height: auto;
@@ -68,23 +60,20 @@ footer {
 }
 
 .card:hover {
-  filter: drop-shadow(0 0 1em rgba(255, 255, 255, 0.5));
+  border: 1px solid rgb(129, 129, 129);
 }
 
 .detalle-celular {
-  padding: 0 20px;
+  padding: 30px 100px;
 }
 
 .card-detalle {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(8px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  border: 1px solid #707070;
-  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
   width: auto;
   height: auto;
-  padding: 0 25px;
+  padding: 0 200px;
   will-change: filter;
   transition: filter 200ms;
 }
@@ -102,6 +91,19 @@ footer {
   height: 200px;
 }
 
+.div-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.detalle-img {
+  width: auto;
+  height: 350px;
+  margin: 0;
+}
+
 .redes-image {
   width: 15px;
   height: 15px;
@@ -110,19 +112,18 @@ footer {
 
 .variantes-list {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
-  flex-wrap: wrap;
   padding: 0;
   list-style: none;
 }
 
 .variantes-list li {
-  border: 1px solid #707070;
-  padding: 15px 15px 0 15px;
-  border-radius: 25px;
-  min-width: 200px;
-  color: #dedede;
-  flex: 1 1 200px;
+  padding: 25px;
+  color: black;
+  font-size: large;
 }
 
 .terminos-politica {
@@ -187,10 +188,6 @@ h3 {
   flex-direction: column;
 }
 
-.footer-logo {
-  height: 2.5em;
-}
-
 .local-card {
     flex-direction: column !important;
     padding: 0 !important;
@@ -224,12 +221,11 @@ h3 {
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(8px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border: 1px solid #707070;
   border-radius: 25px;
-  width: 100%;
+  width: 80%;
   padding: 25px;
   will-change: filter;
   transition: filter 300ms;
@@ -267,4 +263,8 @@ h3 {
   border-radius: 20px;
   object-fit: cover;
   margin: 1.5rem;
+}
+
+.precio-efectivo {
+  color: green;
 }

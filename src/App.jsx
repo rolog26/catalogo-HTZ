@@ -37,10 +37,7 @@ function App() {
         <AnimatedRoutes/>
       </main>
       <footer>
-        <div>
-          <img className="footer-logo" src="/logos/logo.png" alt="Logo de HTZ" />
           <p className="eslogan">Tu tecnología, nuestra pasión.</p>
-        </div>
         <p>Todos los derechos reservados &copy; 2025 HTZ</p>
         <div className="footer-links">
           <Link to="/terminos-y-condiciones" className="react-link">Terminos y condiciones</Link>

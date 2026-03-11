@@ -39,8 +39,10 @@ export default function DetalleCelular() {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.15 }}
             >
+                <div className="div-img">
                 <motion.h3>{celular.marca} {celular.modelo}</motion.h3>
-                <motion.img className="celular-image" src={celular.imagen} alt={celular.modelo} />
+                <motion.img className="detalle-img" src={celular.imagen} alt={celular.modelo} />
+                </div>
                 <AnimatePresence mode="wait">
                     <motion.ul className="variantes-list"
                         initial={{ opacity: 0 }}
@@ -53,35 +55,34 @@ export default function DetalleCelular() {
 
                             return (
                                 <li key={i}>
-                                    <strong>{variante.almacenamiento}</strong> -{" "}
-                                    {variante.precio.toLocaleString()} USD -{" "}
-                                    {precioARS.toLocaleString("es-AR", {
-                                        style: "currency",
-                                        currency: "ARS",
-                                        minimumFractionDigits: 0
-                                    })}
+                                    <strong>{variante.almacenamiento}</strong> {" "}
                                     {
                                         <div className="cuotas">
                                             {Object.entries(tasas).map(([cuotas, interes]) => {
                                                 const total = precioARS * interes;
                                                 return (
                                                     <p key={cuotas}>
-                                                        {cuotas} cuotas de {" "}{(total / cuotas).toLocaleString("es-AR", {
+                                                        {total.toLocaleString("es-AR", {
                                                             style: "currency",
                                                             currency: "ARS",
                                                             minimumFractionDigits: 0
-                                                        })}<br />
-                                                        (Total: {" "}{total.toLocaleString("es-AR", {
+                                                        })} -
+                                                        Hasta {cuotas} cuotas sin interés de {" "}{(total / cuotas).toLocaleString("es-AR", {
                                                             style: "currency",
                                                             currency: "ARS",
                                                             minimumFractionDigits: 0
-                                                        })})
+                                                        })}
                                                     </p>
                                                 )
                                             })
                                             }
                                         </div>
                                     }
+                                    <strong className="precio-efectivo">{precioARS.toLocaleString("es-AR", {
+                                        style: "currency",
+                                        currency: "ARS",
+                                        minimumFractionDigits: 0
+                                    })} Efectivo / Transferencia</strong>
                                 </li>
                             )
                         })}
